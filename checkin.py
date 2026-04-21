@@ -171,8 +171,8 @@ def git_commit_and_push():
     os.system("git branch -M main")
 
     # Git 身份
-    os.system('git config --global user.name "121592512"')
-    os.system('git config --global user.email "121592512@qq.com"')
+    os.system('git config --global user.name "jysxc"')
+    os.system('git config --global user.email "qq366551612@gmail.com"')
 
     token = os.getenv("GITHUB_TOKEN")
     if not token:
@@ -181,7 +181,7 @@ def git_commit_and_push():
 
     os.system(
         f"git remote set-url origin "
-        f"https://{token}@github.com/121592512/Github-Automatic-check-in.git"
+        f"https://{token}@github.com/jysxc/Github-Automatic-check-in.git"
     )
 
     os.system("git add -A")
