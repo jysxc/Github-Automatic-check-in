@@ -174,8 +174,8 @@ def git_commit_and_push():
     os.system("git branch -M main")
 
     # Git 身份
-    os.system('git config --global user.name "xiname"')
-    os.system('git config --global user.email "xinametravel@qq.com"')
+    os.system('git config --global user.name "jysxc"')
+    os.system('git config --global user.email "qq366551612@gmail.com"')
 
     token = os.getenv("GITHUB_TOKEN")
     if not token:
